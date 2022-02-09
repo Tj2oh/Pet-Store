@@ -1,3 +1,15 @@
+.nav{
+    font-size: 30px;
+    text-align: center;
+    color: yellow;
+    position: row;
+    /* margin-left: 420px; */
+}
+
+.nav-link{
+    color: yellow;
+}
+
 .jumbotron{
     background-color: yellow;
 }
@@ -9,3 +21,34 @@ h1{
 p{
     color: blue;
 }
+
+.img{
+    width: 1200px;
+}
+.carousel-inner{
+    width
+}
+
+body {
+    background-image: url(./Reef-Saltwater-aquarium-by-Okeanos-Group-900x607.jpg);
+}
+
+a:hover{
+    color: silver;
+}
+
+.footer{
+    margin-left: 825px;
+    color: yellow;
+    font-size: 30px;
+    font-weight: 800px;
+    margin-top: 200px;
+}
+
+
+@media(max-width: 480px) {
+
+    iframe{
+        height: auto;
+        max-width: 100%;
+    }
