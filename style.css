@@ -66,9 +66,7 @@ p{
 .img{
     width: 1200px;
 }
-.carousel-inner{
-    width
-}
+
 
 body {
     background-image: url(./Reef-Saltwater-aquarium-by-Okeanos-Group-900x607.jpg);
@@ -89,7 +87,10 @@ a:hover{
 h6 {
     color: yellow;
 }
-
+.pets{
+    width: 60%;
+    display: flex;
+}
 
 .fillin {
     max-width: 600px;
@@ -106,6 +107,14 @@ h6 {
 h2 {
     color: yellow;
 }
+#market{
+    display: flex;
+    flex-wrap: wrap;
+    color: yellow;
+    font-size: 30px;
+    font-weight: 600;
+}
 
 @media(max-width: 480px) {
 
+}
